@@ -61,9 +61,7 @@ load 'euler_spiral.plt'
 
 ## Note
 If you want to output the graph of Fresnel integrals C(t) and S(t), load the script ''[fresnel_graph.plt](fresnel_graph.plt)''.
-<div style="text-align: center;">
 <img src="fresnelCS.png" alt="fresnelCS.png" width="60%">
-</div>
 
 ## Author
 * Hiro Shigeyoshi
