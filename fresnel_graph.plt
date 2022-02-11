@@ -19,16 +19,15 @@ fresnelC(t) = (h = t/N, h/3*(sum[i=1:N/2]c((2*i-2)*h)+4*c((2*i-1)*h)+c(2*i*h)))
 fresnelS(t) = (h = t/N, h/3*(sum[i=1:N/2]s((2*i-2)*h)+4*s((2*i-1)*h)+s(2*i*h)))
 
 #=================== Setting ====================
-# set term pngcairo transparent truecolor enhanced dashed size 300, 225 font 'Times, 12' # for YouTube
-set term pngcairo truecolor enhanced dashed size 600, 450 font 'Times, 12'
-set key font ', 14' right bottom spacing 1.3 # default=1
+set term pngcairo truecolor enhanced dashed size 640, 480 font 'Times, 16'
+set key right bottom spacing 1.3 # default=1
 set grid
 set samples 5e3
-set xr[-5:5]
-set yr[-1:1]
-# set xl '{/:Italic t}' offset screen 0, 0.03 font ', 14'
-set xl '{/:Italic t}' font ', 14'
-unset yl
+set xrange [-5:5]
+set yrange [-1:1]
+set xlabel '{/:Italic t}'
+set ylabel '{/:Italic C}({/:Italic t}) ,  {/:Italic S}({/:Italic t})'
+set tics font ', 14'
 
 #=================== Plot ====================
 set output "fresnelCS.png"
