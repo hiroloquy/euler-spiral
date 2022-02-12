@@ -8,13 +8,9 @@ My blog is written in Japanese, but you can translate it in your language by GTr
 - [English (auto translated)](https://hiroloquy-com.translate.goog/2020/09/03/gnuplot_compare_9_terminals/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja&_x_tr_pto=wapp) -->
 
 ## Demo
-|![curve.gif](curve.gif)|![convergence_point.gif](convergence_point.gif)|
-|:---:|:---:|
-|**Only curve**|**Curve with limit points**|
-
-|![osculating_circle.gif](osculating_circle.gif)|![point_and_circle.gif](point_and_circle.gif)|
-|:---:|:---:|
-|**Curve with osculating circles**|**Curve with the points and the circles**|
+|![curve.gif](curve.gif)|![convergence_point.gif](convergence_point.gif)|![osculating_circle.gif](osculating_circle.gif)|![point_and_circle.gif](point_and_circle.gif)|
+|:---:|:---:|:---:|:---:|
+|**Only curve**|**Curve with limit points**|**Curve with osculating circles**|**Curve with the points and the circles**|
 
 <!-- ## Features -->
 ## Theoretical formulas
