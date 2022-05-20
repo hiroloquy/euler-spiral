@@ -16,27 +16,28 @@ My blog is written in Japanese, but you can translate it in your language by GTr
 ## Theoretical formulas
 **More details** → [**My blog (in English)**](https://hirossoliloquy.blogspot.com/2020/06/euler-spiral-animation-gnuplot.html)
 ### Parametric equations
-<img src=
-"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%7D%0Ax%28t%29+%26%3D+%5Cint_0%5Et%5Ccos%5Ctheta%5E2%5Cmathrm%7Bd%7D%5Ctheta+%5Cnonumber%5C%5C%0Ay%28t%29+%26%3D+%5Cint_0%5Et%5Csin%5Ctheta%5E2%5Cmathrm%7Bd%7D%5Ctheta+%5Cnonumber%0A%5Cend%7Balign%7D" 
-alt="\begin{align}
-x(t) &= \int_0^t\cos\theta^2\mathrm{d}\theta \nonumber\\
-y(t) &= \int_0^t\sin\theta^2\mathrm{d}\theta \nonumber
-\end{align}">
+$$
+\begin{align*}
+x(t) &= \int_0^t\cos\theta^2\mathrm{d}\theta\\
+y(t) &= \int_0^t\sin\theta^2\mathrm{d}\theta
+\end{align*}
+$$
 
 ### Limit points
-<img src=
-"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Clim_%7Bt%5Cto%5Cpm%5Cinfty%7Dx%28t%29+%3D+%5Clim_%7Bt%5Cto%5Cpm%5Cinfty%7Dy%28t%29+%3D+%5Cpm%5Cfrac%7B1%7D%7B2%7D%5Csqrt%7B%5Cfrac%7B%5Cpi%7D%7B2%7D%7D" 
-alt="\lim_{t\to\pm\infty}x(t) = \lim_{t\to\pm\infty}y(t) = \pm\frac{1}{2}\sqrt{\frac{\pi}{2}}"> &emsp; (double sign corresponds)
+$$
+\lim_{t\to\pm\infty}x(t) = \lim_{t\to\pm\infty}y(t) = \pm\frac{1}{2}\sqrt{\frac{\pi}{2}}
+\qquad\textrm{(double sign corresponds)}
+$$
 
 ### Radius of curvature 
-<img src=
-"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Crho+%3D+%5Cfrac%7B1%7D%7B2%7Ct%7C%7D" 
-alt="\rho = \frac{1}{2|t|}">
+$$
+\rho = \frac{1}{2|t|}
+$$
 
 ### Center of curvature 
-<img src=
-"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cvec%7Bc%7D%3D%5Cleft%5Bx%28t%29-%5Cfrac%7B1%7D%7B2t%7D%5Csin+t%5E2%2C++y%28t%29%2B%5Cfrac%7B1%7D%7B2t%7D%5Ccos+t%5E2%5Cright%5D" 
-alt="\vec{c}=\left[x(t)-\frac{1}{2t}\sin t^2,  y(t)+\frac{1}{2t}\cos t^2\right]">
+$$
+\vec{c}=\left[x(t)-\frac{1}{2t}\sin t^2,  y(t)+\frac{1}{2t}\cos t^2\right]
+$$
 
 <!-- # Operating environment -->
 ## Requirement
